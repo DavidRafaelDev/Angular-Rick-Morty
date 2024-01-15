@@ -1,0 +1,40 @@
+.favoritos-container{
+    padding: 2vh;
+}
+.favoritos-header{
+    display: flex;
+    font-family: "Creepster", system-ui;
+    justify-content: space-around;
+    margin: 5vh;
+    align-items: center;
+}
+h1{
+    color: #00B5CC;
+    -webkit-text-stroke: 1px #B2DF28;
+
+}
+.card-container{
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.not-found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 20vh;
+}
+p{
+    color: #A4A4A4;
+}
+button{
+    background: white;
+    color: black;
+    padding: 2vh;
+    border-radius: 2vh;
+    cursor: pointer;
+}

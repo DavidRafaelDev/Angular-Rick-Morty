@@ -1,0 +1,44 @@
+.inicio-container{
+    padding: 2vh;
+}
+.inicio-header{
+    display: flex;
+    font-family: "Creepster", system-ui;
+    justify-content: space-around;
+    margin: 5vh;
+    align-items: center;
+}
+.input-pesquisar{
+    height: 3vh;
+    background: #1F1F1F;
+    border: 1px solid gray;
+    color: white;
+    border-radius: 5px;
+    padding: 1vh;
+    width: 20vh;
+}
+
+.card-container{
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.erro-mensagem{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 20vh;
+}
+p{
+    color: #A4A4A4;
+}
+h1{
+    color: #00B5CC;
+    -webkit-text-stroke: 1px #B2DF28;
+}
+

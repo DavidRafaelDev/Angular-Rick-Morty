@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poppins&display=swap');
+
+body{
+    background: #1F1F1F;
+    color: white;
+    margin: 0;
+    padding: 0;
+}

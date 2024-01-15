@@ -1,0 +1,28 @@
+.header-container{
+    background: black;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+.tab{
+    display: flex;
+    padding: 2vh;
+}
+.inicio {
+    background-color: #66ccff;
+  }
+  
+  .favoritos {
+    background-color: #ffcc66;
+  }
+
+  p{
+    padding: 1vh;
+    cursor: pointer;
+}
+h1{
+    font-family: "Creepster", system-ui;
+    margin: 0;
+    padding: 1vh;
+}

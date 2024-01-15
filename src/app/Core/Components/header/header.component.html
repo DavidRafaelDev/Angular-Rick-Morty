@@ -1,0 +1,10 @@
+<div class="header-container">
+    <div>
+        <h1>Rick and Morty</h1>
+    </div>
+    <div class="tab">
+        <p (click)="goToInicio()" [class.inicio]="isInicioRoute">Inicio</p>
+        <p (click)="goToFavoritos()" [class.favoritos]="isFavoritosRoute">Favoritos ({{ favoriteCount$ | async }})</p>
+
+    </div>
+</div>
