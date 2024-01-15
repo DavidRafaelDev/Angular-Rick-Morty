@@ -20,7 +20,6 @@ export class FavoritosComponent implements OnInit {
     );
   }
   ngOnInit(): void {
-    console.log('iniciou favoritos');
   }
 
   goToInicio() {
